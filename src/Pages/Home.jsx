@@ -4,12 +4,11 @@ import HomeRightSection from "./ComponentHome/HomeRightSection";
 
 const Home = () => {
   return (
-    <div className="h-screen w-[430px] flex-col bg-zinc-200 md:flex md:h-screen md:w-full md:flex-row md:bg-zinc-200">
+    <div className="min-h-screen flex flex-col gap-8 bg-main md:h-screen w-full md:flex md:flex-row px-6 md:py-0 py-6">
       <HomeNavbar />
       <HomeLeftSection />
       <HomeRightSection />
     </div>
   );
 };
-
 export default Home;

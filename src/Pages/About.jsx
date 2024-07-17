@@ -5,7 +5,7 @@ import RightSection from "./ComponentAbout/RightSection";
 
 const About = () => {
   return (
-    <div className="flex flex-row bg-zinc-200">
+    <div className="md:flex md:flex-row gap-8 bg-main p-6 md:py-0">
       <LeftNav />
       <MidSection />
       <RightSection />
