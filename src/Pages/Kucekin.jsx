@@ -3,7 +3,7 @@ import LeftNav from "../component/LeftNav";
 
 const Kucekin = () => {
   return (
-    <main className=" min-h-screen md:flex text-terbg-tertiary scroll-smooth px-6 py-6 md:py-0 flex flex-col gap-8">
+    <main className=" min-h-screen md:flex md:flex-row gap-8 bg-main p-6 md:py-0">
       <LeftNav />
       <div className="flex flex-col gap-24">
         <div className="px-6 mx-auto h-screen place-content-center md:w-3/4 bg-tertiary text-main">
@@ -24,7 +24,11 @@ const Kucekin = () => {
 
         <div className="flex flex-col mx-auto font-montserrat min-h-screen place-content-center gap-8 text-tertiary">
           <div className="rounded-xl overflow-hidden">
-            <img alt="img" src={"../../public/kucekin/landingpageweb.png"} />
+            <img
+              alt="img"
+              loading="lazy"
+              src={"../../public/kucekin/landingpageweb.png"}
+            />
           </div>
           <p className="text-center text-lg">
             {
@@ -37,6 +41,7 @@ const Kucekin = () => {
             <div className="flex gap-20 justify-center">
               <img
                 alt="img"
+                loading="lazy"
                 src={"../../public/kucekin/landingpagemobile.png"}
                 className="md:w-80 w-70"
               />
@@ -55,6 +60,7 @@ const Kucekin = () => {
 
               <img
                 alt="img"
+                loading="lazy"
                 src={"../../public/kucekin/login.png"}
                 className="md:w-80 w-70"
               />
@@ -62,6 +68,7 @@ const Kucekin = () => {
             <div className="flex gap-20 justify-center">
               <img
                 alt="img"
+                loading="lazy"
                 src={"../../public/kucekin/user.png"}
                 className="md:w-80 w-70"
               />
@@ -88,6 +95,7 @@ const Kucekin = () => {
 
               <img
                 alt="img"
+                loading="lazy"
                 src={"../../public/kucekin/profile.png"}
                 className="md:w-80 w-70"
               />
@@ -95,6 +103,7 @@ const Kucekin = () => {
             <div className="flex gap-20 justify-center">
               <img
                 alt="img"
+                loading="lazy"
                 src={"../../public/kucekin/pickup.png"}
                 className="md:w-80 w-70"
               />
@@ -132,6 +141,7 @@ const Kucekin = () => {
 
               <img
                 alt="img"
+                loading="lazy"
                 src={"../../public/kucekin/admin.png"}
                 className="md:w-3/4 rounded-xl"
               />
