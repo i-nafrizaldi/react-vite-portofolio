@@ -13,6 +13,11 @@ export default {
         gloock: ["Gloock", "serif"],
         montserrat:["Montserrat", "sans-serif"]
       },
+      colors:{
+        main:'#ece7e1',
+        second:'#292524',
+        tertiary:'#1B1917'
+      }
     },
   },
   plugins: [],

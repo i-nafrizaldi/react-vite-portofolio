@@ -1,10 +1,10 @@
-import cv from '../../../public/ivan_nafrizaldi_2.pdf'
+import cv from "../../../public/cv.pdf";
 
 const MidSection = () => {
   return (
-    <div className=" basis-3/4">
-      <div className="container mx-auto mt-28 w-[600px] text-stone-800">
-        <h1 className=" -mb-10 font-italiana text-[200px] font-semibold">
+    <div className=" md:basis-3/4">
+      <div className="mx-auto mt-28 md:w-[600px] text-stone-800">
+        <h1 className=" md:-mb-10 font-italiana md:text-[200px] text-9xl font-semibold">
           About
         </h1>
         <br />
@@ -17,18 +17,10 @@ const MidSection = () => {
           {`Hey yo! I just graduated and I'm rocking it as a fullstack web dev ninja. From making the frontend look slick to pulling off backend magic. Had a blast leveling up at Purwadhika Digital Technology School, where I soaked in the skills and slayed it in web dev projects.`}
           <br />
           <br />
-          {`Fast forward to now, I've rocked Digital Campaign Design, Flash Actionscript, Web Design, Animation, HTML/CSS, No-Code Web Development, Product Design, and Product Management. Every code snippet, big or small, has been a stepping stone to where I'm at. `}
+          {`I am a seasoned Fullstack Developer fluent in crafting cutting-edge web applications using React, HTML, CSS, JavaScript, and TypeScript. With expertise spanning Express.js and Next.js for robust backend solutions, I excel in implementing Redux for state management and harnessing Tailwind CSS for sleek, responsive design. I thrive in the creative realm where technology meets innovation, transforming ideas into powerful solutions. Ready to collaborate with clients and teams alike, I bring a blend of technical prowess and design finesse to drive impactful results. `}
           <br />
           <br />
-          {`What gets me stoked about being a dev is designing stuff that
-                matters – solving real-world problems, not just pixels. It's
-                not just about buttons and websites; it's about creating
-                experiences that help people. Whether it's leveling up their
-                video game, boosting their online presence, or snagging that
-                must-have online purchase. I'm all about tuning into customer
-                vibes, cracking the code on their needs, dropping solutions
-                like it's hot, and constantly leveling up the game. That's the
-                secret sauce to top-tier product design!`}
+          {`What truly excites me as a developer is crafting solutions that prioritize real-world impact over mere aesthetics. I believe technology goes beyond buttons and website designs; it's about creating enriching user experiences. With expertise in React, HTML, CSS, JavaScript, and TypeScript, coupled with backend proficiency in Express.js and Next.js, I emphasize the importance of listening to customer needs, identifying innovative solutions, and continually elevating the standard of superior user experiences.`}
           <br />
           <br />
           {`This is one of my favourite quotes (by Peter Drucker):`}
@@ -46,7 +38,7 @@ const MidSection = () => {
           <span className="font-montserrat text-3xl font-semibold">SKILLS</span>
           <br />
           <br />
-          {`JavaScript / HTML / CSS / ReactJS / React Native / Express JS / Node JS / Next JS / Tailwind / MySQL / CMS / Jira / Docker / Git / GitHub / Prisma ORM`}
+          {`JavaScript / HTML / CSS / React JS / Typescript / Express JS / Node JS / Next JS / Tailwind / MySQL / CMS / Jira / Docker / Git / GitHub / Prisma ORM`}
         </p>
         <div className="mt-5">
           <a href={cv} target="_blank">
