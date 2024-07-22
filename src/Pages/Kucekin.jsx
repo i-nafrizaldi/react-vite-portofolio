@@ -1,5 +1,12 @@
 import React from "react";
 import LeftNav from "../component/LeftNav";
+import landingoageweb from "../../public/kucekin/landingpageweb.png";
+import landingoagemobile from "../../public/kucekin/landingpagemobile.png";
+import admin from "../../public/kucekin/admin.png";
+import login from "../../public/kucekin/login.png";
+import pickup from "../../public/kucekin/pickup.png";
+import profile from "../../public/kucekin/profile.png";
+import user from "../../public/kucekin/user.png";
 
 const Kucekin = () => {
   return (
@@ -24,11 +31,7 @@ const Kucekin = () => {
 
         <div className="flex flex-col mx-auto font-montserrat min-h-screen place-content-center gap-8 text-tertiary">
           <div className="rounded-xl overflow-hidden">
-            <img
-              alt="img"
-              loading="lazy"
-              src={"../../public/kucekin/landingpageweb.png"}
-            />
+            <img alt="img" loading="lazy" src={landingoageweb} />
           </div>
           <p className="text-center text-lg">
             {
@@ -42,7 +45,7 @@ const Kucekin = () => {
               <img
                 alt="img"
                 loading="lazy"
-                src={"../../public/kucekin/landingpagemobile.png"}
+                src={landingoagemobile}
                 className="md:w-80 w-70"
               />
               <p className=" content-center md:text-3xl font-extrabold md:w-1/2 hidden md:block text-center">
@@ -61,7 +64,7 @@ const Kucekin = () => {
               <img
                 alt="img"
                 loading="lazy"
-                src={"../../public/kucekin/login.png"}
+                src={login}
                 className="md:w-80 w-70"
               />
             </div>
@@ -69,7 +72,7 @@ const Kucekin = () => {
               <img
                 alt="img"
                 loading="lazy"
-                src={"../../public/kucekin/user.png"}
+                src={user}
                 className="md:w-80 w-70"
               />
               <div className=" md:w-1/2 hidden md:block text-center  flex-col gap-4 place-content-center ">
@@ -96,7 +99,7 @@ const Kucekin = () => {
               <img
                 alt="img"
                 loading="lazy"
-                src={"../../public/kucekin/profile.png"}
+                src={profile}
                 className="md:w-80 w-70"
               />
             </div>
@@ -104,7 +107,7 @@ const Kucekin = () => {
               <img
                 alt="img"
                 loading="lazy"
-                src={"../../public/kucekin/pickup.png"}
+                src={pickup}
                 className="md:w-80 w-70"
               />
               <div className=" md:w-1/2 hidden md:block text-center  flex-col gap-4 place-content-center ">
@@ -142,7 +145,7 @@ const Kucekin = () => {
               <img
                 alt="img"
                 loading="lazy"
-                src={"../../public/kucekin/admin.png"}
+                src={admin}
                 className="md:w-3/4 rounded-xl"
               />
             </div>
