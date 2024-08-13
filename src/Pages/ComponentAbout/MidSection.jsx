@@ -1,4 +1,4 @@
-import cv from "../../../public/cv.pdf";
+import cv from "../../../public/CV_IVAN NAFRIZALDI.pdf";
 
 const MidSection = () => {
   return (
