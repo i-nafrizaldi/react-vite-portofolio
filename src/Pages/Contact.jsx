@@ -8,7 +8,7 @@ const Contact = () => {
         <ContactNav />
         <div className=" md:ml-20 ">
           <div className="mx-auto mt-28 md:w-[600px] text-main">
-            <h1 className="font-italiana md:text-[200px] text-9xl font-semibold">Hello.</h1>
+            <h1 className="font-italiana md:text-[200px] text-7xl font-semibold">Hello.</h1>
             <div className=" md:first-line:w-[400px] font-montserrat">
               {`Need a unique, user-friendly website? Let's chat and create something awesome for you to own and manage effortlessly. Reach out now!`}
               <br />

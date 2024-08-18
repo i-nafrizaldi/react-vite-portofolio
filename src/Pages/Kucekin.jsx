@@ -14,7 +14,7 @@ const Kucekin = () => {
       <LeftNav />
       <div className="flex flex-col gap-24">
         <div className="px-6 mx-auto h-screen place-content-center md:w-3/4 bg-tertiary text-main">
-          <h1 className="font-italiana md:text-[150px] text-6xl font-bold  ">
+          <h1 className="font-italiana md:text-[150px] text-7xl font-bold  ">
             KUCEKIN
           </h1>
           <p className="font-montserrat">

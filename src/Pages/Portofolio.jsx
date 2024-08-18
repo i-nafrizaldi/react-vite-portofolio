@@ -9,7 +9,7 @@ const Portofolio = () => {
         <ContactNav />
         <div className=" md:my-auto">
           <div className="container mx-auto mt-28 md:w-[600px] text-main">
-            <h1 className="font-italiana md:text-[100px] text-8xl font-semibold">
+            <h1 className="font-italiana md:text-[100px] text-7xl font-semibold">
               Portofolio
             </h1>
             <div className=" md:w-[400px] font-montserrat">
