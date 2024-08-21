@@ -40,13 +40,13 @@ const MidSection = () => {
           <br />
           {`JavaScript / HTML / CSS / React JS / Typescript / Express JS / Node JS / Next JS / Tailwind / MySQL / CMS / Jira / Docker / Git / GitHub / Prisma ORM`}
         </p>
-        <div className="mt-5">
+{/*         <div className="mt-5">
           <a href={cv} target="_blank">
             <button className=" h-auto w-56 rounded-[50px] bg-stone-800 px-4 py-2 text-center font-montserrat text-2xl text-zinc-200 transition-all duration-300 hover:w-80">
               My CV
             </button>
           </a>
-        </div>
+        </div> */}
         <div className="mt-11">
           <h1 className="font-montserrat text-3xl font-semibold">KUDOS</h1>
           <br />
