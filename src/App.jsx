@@ -4,6 +4,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Portofolio from "./Pages/Portofolio";
 import Kucekin from "./Pages/Kucekin";
+import Purwapora from "./Pages/Purwapora";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portofolio" element={<Portofolio />} />
         <Route path="/kucekin" element={<Kucekin />} />
+        <Route path="/purwapora" element={<Purwapora />} />
       </Routes>
     </>
   );
