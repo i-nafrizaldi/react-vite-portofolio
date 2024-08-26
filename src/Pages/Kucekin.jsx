@@ -285,39 +285,6 @@ const Kucekin = () => {
             </p>
           </div>
         </section>
-
-        {/* <section className="px-6 mx-auto h-screen flex flex-col justify-center  md:w-3/4 bg-tertiary text-main">
-          <h1 className="font-italiana md:text-[150px] text-7xl font-bold">
-            KUCEKIN
-          </h1>
-          <p className="font-montserrat text-center md:text-left">
-            KUCEKIN is a Laundry Web App designed as an e-commerce platform that
-            allows customers to have their laundry done without visiting the
-            physical outlet. It features pickup and delivery services provided
-            by the laundry service. With multiple branch locations, customers
-            can be served by the nearest outlet available.
-          </p>
-          <div className="text-center md:text-left">
-            <p className="font-bold text-xl">Development Module List:</p>
-            <div className="flex flex-col gap-2 mt-2">
-              <p>
-                Frontend:
-                <span className="block">
-                  TypeScript / Next.js / Tailwind CSS / ShadCN UI / React Hook
-                  Form / Redux / Axios
-                </span>
-              </p>
-              <p>
-                Backend:
-                <span className="block">
-                  Express.js / JSON Web Token / Nodemailer / Handlebars / Bcrypt
-                  / Prisma ORM / OpenCage API / Google OAuth / Midtrans
-                </span>
-              </p>
-            </div>
-          </div>
-        </section> */}
-
         <section className="flex flex-col mx-auto font-montserrat min-h-screen justify-center gap-12 text-tertiary px-8">
           {images.map(({ src, alt, text, isLarge, subText }, index) => (
             <div
@@ -341,7 +308,6 @@ const Kucekin = () => {
               >
                 <p className="md:text-3xl font-extrabold">{text}</p>
                 <p className="">{subText}</p>
-
               </div>
             </div>
           ))}
