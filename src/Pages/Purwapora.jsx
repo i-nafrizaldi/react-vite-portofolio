@@ -1,25 +1,30 @@
 import React from "react";
 import LeftNav from "../component/LeftNav";
+import landingPage from "../../public/purwapora/Macbook-Air-localhost.png";
+import landingPageMobile from "../../public/purwapora/iPhone-13-PRO-localhost.png";
+import loginMobile from "../../public/purwapora/Salinan iPhone-13-PRO-localhost.png";
+import eventDetailMobile from "../../public/purwapora/eventDetailMobile.png";
+import adminDashboard from "../../public/purwapora/Macbook-Air-localhost (1).png";
 
 const Purwapora = () => {
   const images = [
     {
-      src: "../../public/purwapora/iPhone-13-PRO-localhost.png",
+      src: landingPageMobile,
       alt: "Landing Page Mobile Version",
       text: "Landing Page Mobile Version",
     },
     {
-      src: "../../public/purwapora/Salinan iPhone-13-PRO-localhost.png",
+      src: loginMobile,
       alt: "Login Page",
       text: "Login Page",
     },
     {
-      src: "../../public/purwapora/eventDetailMobile.png",
+      src: eventDetailMobile,
       alt: "Event Detail Page",
       text: "Event Detail Page",
     },
     {
-      src: "../../public/purwapora/Macbook-Air-localhost (1).png",
+      src: adminDashboard,
       alt: "Admin Dashboard",
       text: "Admin Dashboard",
       isLarge: true,
@@ -69,7 +74,7 @@ const Purwapora = () => {
             <img
               alt="Main showcase"
               loading="lazy"
-              src="../../public/purwapora/Macbook-Air-localhost.png"
+              src={landingPage}
               className="md:w-3/4 rounded-xl mx-auto"
             />
           </div>
