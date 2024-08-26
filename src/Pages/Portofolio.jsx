@@ -20,18 +20,16 @@ const Portofolio = () => (
     {/* LEFT NAVBAR */}
     <ContactNav />
     {/* MAIN CONTENT */}
-    {/* <div className="md:my-auto "> */}
-      <div className=" mx-auto mt-28 md:w-[500px] md:my-auto text-main">
-        <h1 className="font-italiana md:text-[140px] text-7xl font-semibold">
-          Portofolio
-        </h1>
-        <p className="md:w-[400px] font-montserrat">
-          My best work lies in web development. I believe the digital
-          development world is always evolving, just like my role in it. Every
-          day, I keep learning and gaining new skills.
-        </p>
-      </div>
-    {/* </div> */}
+    <div className=" mx-auto mt-28 md:w-[500px] md:my-auto text-main">
+      <h1 className="font-italiana md:text-[140px] text-7xl font-semibold">
+        Portofolio
+      </h1>
+      <p className="md:w-[400px] font-montserrat">
+        My best work lies in web development. I believe the digital development
+        world is always evolving, just like my role in it. Every day, I keep
+        learning and gaining new skills.
+      </p>
+    </div>
     {/* RIGHT SECTION */}
     <div className="text-main md:my-auto md:flex md:flex-col md:gap-6 md:mx-auto">
       <PortfolioLink
