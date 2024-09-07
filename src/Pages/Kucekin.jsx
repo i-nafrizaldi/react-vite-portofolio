@@ -127,7 +127,7 @@ const Kucekin = () => {
           <p className="font-italiana text-5xl font-bold">Check it Out.</p>
           <div className="mb-10 mt-5 flex justify-center">
             <a
-              href="https://jcwd031003.purwadhikabootcamp.com/"
+              href="https://kucekin.purwadhikabootcamp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
